@@ -11,17 +11,21 @@
     <h1>Digite o número e confirme para gerar a tabuada</h1>
     <form id="form">
         <div class="form-control">
-            <label for="primaryNumber">tabuade de:</label>
+            <div class="input-primary">
+                <label for="primaryNumber">tabuade de:</label>
             <input type="number" name="primaryNumber" id="primaryNumber" placeholder="2">
+        </div>
+        <div class="input-multiplication">
             <label for="multiplication">multiplicar até:</label>
             <input type="number" name="multiplication" id="multiplication" value="10">
-            <input type="submit" value="calcular">
+        </div> 
+        <input type="submit" value="calcular">
         </div>
     </form>
-    <div class="resultados">
-        <h2>Tabuada do número: <span></span></h2>
+    <div id="results">
+        <h2>Tabuada do número: <span id="numTitle"></span></h2>
 
-        <div class="result">
+        <div id="resultTable">
             
         </div>
     </div>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    
+}
+input{
+    text-align: center;
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+   border-radius: 16px;
+   font-weight: bold;
+   color: #333;
+   margin: 8px 0;
+}
+input[type = submit]{
+    width: 150px;
+    margin-bottom: 24px;
+}
+.results{
+    margin: 16px 0;
+}
+
+h2{
+    margin-bottom: 16px;
+}
+.resultItem{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 8px 0;
+    border: 1px solid white;
+}
